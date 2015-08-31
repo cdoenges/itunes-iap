@@ -17,13 +17,13 @@ def get_readme():
 
 
 setup(
-    name='itunes-iap',
+    name='tsl-itunes-iap',
     version=get_version(),
     description='Itunes In-app purchase verification api.',
     long_description=get_readme(),
-    author='Jeong YunWon',
-    author_email='itunesiap@youknowone.org',
-    url='https://github.com/youknowone/itunes-iap',
+    author='Ryan Pineo',
+    author_email='ry@tsl.io',
+    url='https://github.com/silverlogic/itunes-iap',
     packages=(
         'itunesiap',
     ),
@@ -31,7 +31,7 @@ setup(
         'itunesiap': ['version.txt']
     },
     install_requires=[
-        'requests', 'prettyexc>=0.5.1', 'six'
+        'requests', 'tsl-prettyexc>=0.5.2', 'six'
     ],
     classifiers=[
         'Intended Audience :: Developers',
@@ -41,8 +41,8 @@ setup(
         'Programming Language :: Python :: 2.6',
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.2',
         'Programming Language :: Python :: 3.3',
+        'Programming Language :: Python :: 3.4',
      ],
 )
 
